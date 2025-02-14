@@ -1,5 +1,6 @@
-from fastapi.responses import JSONResponse
 import httpx
+
+from fastapi.responses import JSONResponse
 
 
 def handle_http_error(error: httpx.HTTPStatusError):
